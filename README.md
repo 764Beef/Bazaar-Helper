@@ -12,18 +12,12 @@ Bazaar Helper is a Fabric mod for Hypixel SkyBlock that keeps your Bazaar activi
 ## Download the release
 
 1. Go to the [Bazaar Helper Releases](https://github.com/764Beef/Bazaar-Helper/releases) page.
-2. Download the latest `bazaar-helper-*.jar` that matches your Minecraft version.
-3. Copy the jar into your Fabric `mods/` directory and start Minecraft with Fabric loader—the mod is ready immediately.
+2. Download the latest `BazaarHelper.jar` 
+3. Copy the jar into your Fabric `mods/` directory and start Minecraft with Fabric loader
 
 ## Requirements
 
-> **Fabric Loader** · 0.16.5 (Minecraft 1.21.11)  
-> **Java** · 21+  
-> **Fabric API** · 0.102.0+1.21.1  
-> **Hypixel SkyBlock** · active account (Bazaar Helper reads Hypixel’s Bazaar data live)  
+ **Fabric Loader** · 0.18.4
+ **Java** · 21+  
+ **Fabric API** · 0.141.3+1.21.11
 
-Each requirement ties directly to the remapped release jar and Fabric loader version so you can install the artifact without mismatched dependencies.
-
-## Why the jar?
-
-The release jar is carefully remapped and packaged so it works with the shipped dependencies and the Fabric loader. Building locally means recreating that process yourself, which is time-consuming and invites version drift. Stick with the release artifact to avoid those pitfalls and focus on putting Bazaar data to work in-game.
