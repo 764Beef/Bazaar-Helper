@@ -17,7 +17,9 @@ Bazaar Helper is a Fabric mod for Hypixel SkyBlock that keeps your Bazaar activi
 
 ## Requirements
 
- **Fabric Loader** · 0.18.4
- **Java** · 21+  
- **Fabric API** · 0.141.3+1.21.11
+  **Fabric Loader** · 0.18.4
+  
+  **Java** · 21+  
+  
+  **Fabric API** · 0.141.3+1.21.11
 
