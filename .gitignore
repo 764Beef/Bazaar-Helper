@@ -1,38 +1,38 @@
 .gradle/
-  build/
-  out/
-  run/
-  logs/
-  crash-reports/
-  .tmp/
-  .tmp-yarn-sanitized/
+build/
+out/
+run/
+logs/
+crash-reports/
+.tmp/
+.tmp-yarn-sanitized/
 
-  .idea/*
-  !.idea/runConfigurations/
-  !.idea/gradle.xml
-  !.idea/misc.xml
-  !.idea/modules.xml
-  *.iml
-  .idea/workspace.xml
-  .idea/tasks.xml
-  .idea/shelf/
-  .idea/httpRequests/
+.idea/*
+!.idea/runConfigurations/
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/modules.xml
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/httpRequests/
 
-  .DS_Store
-  Thumbs.db
-  desktop.ini
+.DS_Store
+Thumbs.db
+desktop.ini
 
-  hs_err_pid*
-  replay_pid*
+hs_err_pid*
+replay_pid*
 
-  .env
-  .env.*
-  *.local
+.env
+.env.*
+*.local
 
-  *.zip
-  *.tar
-  *.gz
-  *.rar
+*.zip
+*.tar
+*.gz
+*.rar
 
-  *.class
-  *.log
+*.class
+*.log
