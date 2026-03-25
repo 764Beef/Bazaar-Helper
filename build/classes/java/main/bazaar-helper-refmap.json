@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/bazaarhelper/mixin/HandledScreenMixin": {
+      "close": "Lnet/minecraft/class_465;method_25419()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/bazaarhelper/mixin/HandledScreenMixin": {
+        "close": "Lnet/minecraft/class_465;method_25419()V"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-AoutRefMapFile=C:\Users\beef1312\skyblock-bazaar-mod\build\classes\java\main\bazaar-helper-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\beef1312\skyblock-bazaar-mod\build\loom-cache\mixin-map-null.unspecified.1_21_11.1.0-v2.main.tiny -AinMapFileNamedIntermediary=C:\Users\beef1312\.gradle\caches\fabric-loom\1.21.11\null.unspecified.1_21_11.1.0-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="skyblock-bazaar-mod.test" options="-AoutRefMapFile=C:\Users\beef1312\skyblock-bazaar-mod\build\classes\java\test\test-bazaar-helper-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\beef1312\skyblock-bazaar-mod\build\loom-cache\mixin-map-null.unspecified.1_21_11.1.0-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\beef1312\.gradle\caches\fabric-loom\1.21.11\null.unspecified.1_21_11.1.0-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>
