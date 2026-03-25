@@ -1,13 +1,20 @@
 # Bazaar Helper
 
-Bazaar Helper is a tiny Fabric mod that keeps track of your Bazaar orders, overlays Bazaar data in-screen, and automates the sell picker for you. The prebuilt jar is the only artifact you need—building locally pulls in big dependencies and takes longer than using the release asset.
+Bazaar Helper is a Fabric mod for Hypixel SkyBlock that keeps your Bazaar activity visible, automates tedious sell decisions, and keeps you aligned with the live market. Instead of pulling in the entire Gradle toolchain, just grab the release jar and drop it in your `mods/` folder.
 
-## Download the Jar
+## What you get
 
-1. Open this repository's **Releases** page (look for the latest entry with “bazaar-helper” in the title).
-2. Download the matching `bazaar-helper-*.jar` file from the release assets.
-3. Copy the jar into your Minecraft instance’s `mods/` folder.
+- **Order tracking** that remembers what you listed and how much you still have to deliver.
+- **In-screen overlays** that show buy/sell price bands, profit estimates, and your current stack on the same HUD you already use.
+- **Launch automation** that handles repetitive sell clicks once the market swings in your favor.
+- **Lightweight install**: no extra configuration, no remapping, and no need to maintain a build environment.
 
-## Why You Shouldn’t Build
+## Download the release
 
-The jar already contains everything the mod needs. Building it yourself requires matching Fabric, mappings, and remapping steps, so trying to compile it on your own usually ends up out of sync with the packaged release. Stick with the release jar, and rely on the Fabric loader to run it—no build step is necessary.
+1. Go to the [Bazaar Helper Releases](https://github.com/764Beef/Bazaar-Helper/releases) page.
+2. Download the latest `bazaar-helper-*.jar` that matches your Minecraft version.
+3. Copy the jar into your Fabric `mods/` directory and start Minecraft with Fabric loader—the mod is ready immediately.
+
+## Why the jar?
+
+The release jar is carefully remapped and packaged so it works with the shipped dependencies and the Fabric loader. Building locally means recreating that process yourself, which is time-consuming and invites version drift. Stick with the release artifact to avoid those pitfalls and focus on putting Bazaar data to work in-game.
