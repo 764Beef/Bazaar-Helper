@@ -1,4 +1,5 @@
 .gradle/
+gradle/
 build/
 out/
 run/
@@ -7,11 +8,7 @@ crash-reports/
 .tmp/
 .tmp-yarn-sanitized/
 
-.idea/*
-!.idea/runConfigurations/
-!.idea/gradle.xml
-!.idea/misc.xml
-!.idea/modules.xml
+.idea/
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
